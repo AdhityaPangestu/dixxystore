@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Konfirmasi Pembayaran — DIXXY STORE</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body data-page="success">
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo-circle">DX</div>
+        <div>
+          <div class="brand-name">DIXXY STORE</div>
+          <div class="brand-sub">Konfirmasi Pembayaran</div>
+        </div>
+      </div>
+
+      <nav class="menu open" style="position:static;background:transparent;border:0;padding:0">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#packages" class="nav-link">Paket</a>
+        <a id="whatsapp-cta" href="#" class="nav-link cta" target="_blank" rel="noopener noreferrer">Chat WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="success">
+      <div class="container">
+        <div class="success-card" id="success-card">
+          <h1 class="success-title">Pembayaran Berhasil ✅</h1>
+          <p class="muted">Langkah terakhir: kirim bukti pembayaran (screenshot) ke WhatsApp agar order kamu diproses.</p>
+
+          <div class="summary-grid" id="summary-grid">
+            <div class="summary-row"><span>Order ID</span><strong id="s-order-id">-</strong></div>
+            <div class="summary-row"><span>Paket</span><strong id="s-package">-</strong></div>
+            <div class="summary-row"><span>Nominal</span><strong id="s-amount">-</strong></div>
+            <div class="summary-row"><span>Nama</span><strong id="s-name">-</strong></div>
+            <div class="summary-row"><span>No. WhatsApp</span><strong id="s-wa">-</strong></div>
+            <div class="summary-row" id="row-player"><span>User ID</span><strong id="s-player">-</strong></div>
+            <div class="summary-row" id="row-server"><span>Server/Zone</span><strong id="s-server">-</strong></div>
+          </div>
+
+          <div class="form-actions">
+            <a class="btn" id="send-proof" href="#" target="_blank" rel="noopener noreferrer">Kirim Bukti ke WhatsApp</a>
+            <a class="btn btn-outline" href="index.html#packages">Kembali ke Paket</a>
+          </div>
+
+          <p class="tiny muted">Kalau halaman ini kosong, pastikan kamu kembali lewat tombol <strong>Kembali ke halaman merchant</strong> di Pakasir setelah pembayaran sukses.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
